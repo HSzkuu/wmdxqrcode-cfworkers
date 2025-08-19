@@ -15,7 +15,7 @@ def gen_url(base_url, maid, expire_seconds=600, title="你好", desc="我喜欢�
 
 if __name__ == "__main__":
     # 示例
-    base = "https://wq.sys-allnet.cn"
+    base = "http://wq.sys-allnet.cn"
     maid = "MAID2508191234567890"
 
     link = gen_url(base, maid, 600, "我好", "你喜欢我")
